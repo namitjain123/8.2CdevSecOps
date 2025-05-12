@@ -78,6 +78,10 @@ app.locals.marked = marked;
 // development only
 if (app.get('env') == 'development') {
   app.use(errorHandler());
+
+
+
+  
 }
 
 
